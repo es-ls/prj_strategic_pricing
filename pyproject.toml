@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "strategic-pricing-calculator"
+version = "0.1.0"
+description = "Excel-based strategic project pricing calculator"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["openpyxl>=3.1"]
+
+[project.scripts]
+strategic-pricing-calc = "strategic_pricing_calculator.cli:calculate_command"
+strategic-pricing-template = "strategic_pricing_calculator.cli:template_command"
+
+[tool.setuptools.packages.find]
+where = ["src"]
