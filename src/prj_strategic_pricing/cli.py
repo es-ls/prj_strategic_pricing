@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import argparse
 
-from strategic_pricing_calculator.calculator import calculate_pricing
-from strategic_pricing_calculator.workbook import (
+from prj_strategic_pricing.calculator import calculate_pricing
+from prj_strategic_pricing.workbook import (
     create_template_workbook,
     read_input_workbook,
     write_result_workbook,

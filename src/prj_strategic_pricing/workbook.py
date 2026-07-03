@@ -7,7 +7,7 @@ from typing import Any
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font, PatternFill
 
-from strategic_pricing_calculator.calculator import PricingResult
+from prj_strategic_pricing.calculator import PricingResult
 
 
 INPUT_SHEETS = (

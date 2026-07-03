@@ -1,4 +1,4 @@
-# Strategic Pricing Calculator
+# prj_strategic_pricing
 
 PDF `Strategic Project Pricing Full Guide v4 Premium`의 견적 산정 흐름을 Excel 자동화 계산기로 옮긴 Python 프로젝트입니다.
 
@@ -33,13 +33,13 @@ python3 -m pip install -e .
 샘플 입력 파일을 먼저 만듭니다.
 
 ```bash
-strategic-pricing-template input.xlsx
+prj-strategic-pricing-template input.xlsx
 ```
 
 계산 결과 파일을 생성합니다.
 
 ```bash
-strategic-pricing-calc input.xlsx output.xlsx
+prj-strategic-pricing-calc input.xlsx output.xlsx
 ```
 
 ## 입력 Excel 시트
@@ -81,4 +81,3 @@ Walk-away Price = Price Cost x Walk-away Multiplier
 ```bash
 python3 -m unittest
 ```
-
